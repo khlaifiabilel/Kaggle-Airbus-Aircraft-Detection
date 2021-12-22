@@ -1,0 +1,29 @@
+{
+    "os": "Linux-5.11.0-43-generic-x86_64-with-glibc2.31",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-12-22T13:09:20.606080",
+    "startedAt": "2021-12-22T13:09:16.920224",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--img",
+        "512",
+        "--batch",
+        "16",
+        "--epochs",
+        "10",
+        "--data",
+        "/home/bilel/GitHub/Airbus-Aircraft-Detection/dataset.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/train.py",
+    "codePath": "yolov5/train.py",
+    "host": "bilel-GL65-Leopard-10SDR",
+    "username": "bilel",
+    "executable": "/home/bilel/anaconda3/bin/python"
+}

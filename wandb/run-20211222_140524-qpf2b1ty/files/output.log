@@ -1,0 +1,18 @@
+
+WARNING: Dataset not found, nonexistent paths: ['/kaggle/working/val']
+Traceback (most recent call last):
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/train.py", line 626, in <module>
+    main(opt)
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/train.py", line 523, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/train.py", line 88, in train
+    loggers = Loggers(save_dir, weights, opt, hyp, LOGGER)  # loggers instance
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/utils/loggers/__init__.py", line 72, in __init__
+    self.wandb = WandbLogger(self.opt, run_id)
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/utils/loggers/wandb/wandb_utils.py", line 180, in __init__
+    self.data_dict = check_wandb_dataset(opt.data)
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/utils/loggers/wandb/wandb_utils.py", line 56, in check_wandb_dataset
+    return check_dataset(data_file)
+  File "/home/bilel/GitHub/Airbus-Aircraft-Detection/yolov5/utils/general.py", line 416, in check_dataset
+    raise Exception('Dataset not found.')
+Exception: Dataset not found.
