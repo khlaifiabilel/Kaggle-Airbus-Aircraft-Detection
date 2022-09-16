@@ -166,7 +166,7 @@ numba==0.54.1
 numexpr==2.7.3
 numpy==1.20.3
 numpydoc==1.1.0
-oauthlib==3.1.1
+oauthlib==3.2.1
 olefile==0.46
 opencv-python-headless==4.5.4.60
 opencv-python==4.5.4.60
