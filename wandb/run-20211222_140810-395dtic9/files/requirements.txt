@@ -112,7 +112,7 @@ jedi==0.18.0
 jeepney==0.7.1
 jinja2-time==0.2.0
 jinja2==2.11.3
-joblib==1.1.0
+joblib==1.2.0
 json5==0.9.6
 jsonpatch==1.32
 jsonpointer==2.2
